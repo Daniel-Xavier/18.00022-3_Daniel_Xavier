@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bdb4cee-972e-42f1-972c-eda91a1d2e59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Enums/Funcoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/Horarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Funcionario/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Apresentacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/PostarMensagens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/BigBrother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/HeavyLifter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/MobileMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ScriptGuy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,33 +47,53 @@
       <option name="presentableId" value="Default" />
       <updated>1591638830254</updated>
     </task>
+    <task id="LOCAL-00001" summary="atividade02">
+      <created>1591639401749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591639401749</updated>
+    </task>
+    <task id="LOCAL-00002" summary="atividade_02">
+      <created>1591639545416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591639545416</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="atividade02" />
+    <MESSAGE value="atividade_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="atividade_02" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="138" key="CommitChangelistDialog2" timestamp="1591639424991">
+    <state x="434" y="138" key="CommitChangelistDialog2" timestamp="1591639543690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="434" y="138" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639424991" />
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom" timestamp="1591639360981">
+    <state x="434" y="138" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639543690" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1591639850750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360981" />
-    <state width="1340" height="206" key="GridCell.Tab.0.center" timestamp="1591639360980">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1591639850750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360980" />
-    <state width="1340" height="206" key="GridCell.Tab.0.left" timestamp="1591639360980">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1591639850750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360980" />
-    <state width="1340" height="206" key="GridCell.Tab.0.right" timestamp="1591639360980">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1591639850750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360980" />
-    <state x="534" y="302" key="Vcs.Push.Dialog.v2" timestamp="1591639404609">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
+    <state x="534" y="302" key="Vcs.Push.Dialog.v2" timestamp="1591639555727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="534" y="302" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639404609" />
+    <state x="534" y="302" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639555727" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Atividade_02$Main.ic" NAME="Main Coverage Results" MODIFIED="1591639164702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
