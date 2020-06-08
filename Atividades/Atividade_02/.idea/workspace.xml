@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bdb4cee-972e-42f1-972c-eda91a1d2e59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7bdb4cee-972e-42f1-972c-eda91a1d2e59" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,39 +58,47 @@
       <option name="project" value="LOCAL" />
       <updated>1591639545416</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Versao final">
+      <created>1591639894324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591639894324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="atividade02" />
     <MESSAGE value="atividade_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="atividade_02" />
+    <MESSAGE value="Versao final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versao final" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="138" key="CommitChangelistDialog2" timestamp="1591639543690">
+    <state x="434" y="138" key="CommitChangelistDialog2" timestamp="1591639893121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="434" y="138" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639543690" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1591639850750">
+    <state x="434" y="138" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639893121" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1591640214879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1591639850750">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591640214879" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1591640214878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1591639850750">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591640214878" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1591640214878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1591639850750">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591640214878" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1591640214878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639850750" />
-    <state x="534" y="302" key="Vcs.Push.Dialog.v2" timestamp="1591639555727">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591640214878" />
+    <state x="534" y="302" key="Vcs.Push.Dialog.v2" timestamp="1591639899408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="534" y="302" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639555727" />
+    <state x="534" y="302" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639899408" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Atividade_02$Main.ic" NAME="Main Coverage Results" MODIFIED="1591639164702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
