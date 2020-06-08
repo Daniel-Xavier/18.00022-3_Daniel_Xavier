@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bdb4cee-972e-42f1-972c-eda91a1d2e59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Enums/Funcoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/Horarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Funcionario/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Apresentacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/PostarMensagens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/BigBrother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/HeavyLifter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/MobileMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/ScriptGuy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1d31Bs3JpWTVkH00QAwh4sY1YtO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Atividade_02" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bdb4cee-972e-42f1-972c-eda91a1d2e59" name="Default Changelist" comment="" />
+      <created>1591638830254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591638830254</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="434" y="138" key="CommitChangelistDialog2" timestamp="1591639424991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="434" y="138" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639424991" />
+    <state width="1340" height="206" key="GridCell.Tab.0.bottom" timestamp="1591639360981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360981" />
+    <state width="1340" height="206" key="GridCell.Tab.0.center" timestamp="1591639360980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360980" />
+    <state width="1340" height="206" key="GridCell.Tab.0.left" timestamp="1591639360980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360980" />
+    <state width="1340" height="206" key="GridCell.Tab.0.right" timestamp="1591639360980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639360980" />
+    <state x="534" y="302" key="Vcs.Push.Dialog.v2" timestamp="1591639404609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="534" y="302" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591639404609" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Atividade_02$Main.ic" NAME="Main Coverage Results" MODIFIED="1591639164702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
