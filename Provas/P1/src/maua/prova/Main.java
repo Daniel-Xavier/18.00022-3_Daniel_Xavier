@@ -3,7 +3,8 @@ package maua.prova;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("testando comit2");
+
+        System.out.println("p2 criada ");
 
     }
 }
