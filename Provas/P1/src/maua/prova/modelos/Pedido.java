@@ -1,7 +1,6 @@
 package maua.prova.modelos;
 
-import maua.prova.enums.FormadePagamento;
-import maua.prova.enums.EstadodoPedido;
+import maua.prova.enums.*;
 
 import java.util.Random;
 
@@ -9,26 +8,26 @@ public class Pedido {
     private String id, descricao;
     private float valor;
     private EstadodoPedido estadodoPedido;
-    private FormadePagamento formadepagamento;
+    private FormadePagamento formadePagamento;
 
 
-    public Pedido (String descricao, float valor, EstadodoPedido estadodoPedido, FormadePagamento formadepagamento;) {
+    public Pedido(String descricao, float valor,FormadePagamento formadePagamento, EstadodoPedido estadodoPedido) {
         this.descricao = descricao;
         this.valor = valor;
-        this.estadodoPedido = estadodoPedido.REALIZADO;
-        this.formadepagamento = formadepagamento;
+        this.estadodoPedido = estadodoPedido;
+        this.formadePagamento = formadePagamento;
         this.id = geradorId();
     }
 
 
-    public mostrarPedido(){
+    public void mostrarPedido(){
         System.out.println(
                 "\n" +
                         "=*=*=*=*=*=*=*=*=*=*Pedido*=*=*=*=*=*=*=*=*=*=\n" +
                         "Id do pedido: " + this.id + "\n" +
                         "Descrição: " + this.descricao + "\n" +
                         "Valor: R$ " + this.valor + "\n" +
-                        "Forma de Pagamento: " + this.formadepagamento + "\n" +
+                        "Forma de Pagamento: " + this.formadePagamento + "\n" +
                         "Estado do pedido: " + this.estadodoPedido + "\n" +
                         "=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*="
         );

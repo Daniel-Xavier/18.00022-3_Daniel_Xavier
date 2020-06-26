@@ -30,14 +30,14 @@ public class Usuario implements Seguuranca {
                 '}';
     }
 
-
+    @Override
     public boolean verifica (String admin) {
         if (this.senha.equals(admin)){
-            System.out.println("Acesso ao admin LIBERADO");
+            System.out.println("Acesso ao admin LIBERADO ");
             return true;
         }
         else {
-            System.out.println("Acesso ao modo admin NEGADO ");
+            System.out.println("Acesso ao modo admin NEGADO! ");
             return false;
         }
     }
