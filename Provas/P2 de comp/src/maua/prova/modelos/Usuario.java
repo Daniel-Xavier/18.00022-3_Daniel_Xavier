@@ -48,7 +48,4 @@ public class Usuario implements Seguuranca {
             return false;
         }
     }
-
-
-
 }
