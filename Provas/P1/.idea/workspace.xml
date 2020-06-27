@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2059bfd3-b4c1-4219-8031-5071fb06fa2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/maua/prova/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maua/prova/sistema/SistemaPizzaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P1/maua/prova/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P1/maua/prova/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P1/maua/prova/enums/EstadodoPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P1/maua/prova/enums/EstadodoPedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P1/maua/prova/enums/FormadePagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P1/maua/prova/enums/FormadePagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P1/maua/prova/interfaces/Seguuranca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P1/maua/prova/interfaces/Seguuranca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P1/maua/prova/modelos/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P1/maua/prova/modelos/Pedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P1/maua/prova/modelos/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P1/maua/prova/modelos/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P1/maua/prova/sistema/SistemaPizzaria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maua/prova/enums/EstadodoPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maua/prova/enums/estadodoPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maua/prova/enums/FormadePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maua/prova/enums/formadePagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maua/prova/interfaces/Seguuranca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maua/prova/interfaces/Seguuranca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maua/prova/modelos/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maua/prova/modelos/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maua/prova/modelos/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maua/prova/modelos/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P2 de Linguagens/src/maua/prova/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../P2 de Linguagens/src/maua/prova/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
