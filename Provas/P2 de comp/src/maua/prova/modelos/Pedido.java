@@ -40,6 +40,13 @@ import maua.prova.enums.*;
             this.descricao = descricao;
         }
 
+        /**
+         * Construtor do pedido.
+         * @param descricao (O pedido do usuario)
+         * @param formapagamento (Opcao que o usario escolheu para pagar o pedido)
+         * @param valor (preco do pedido em reais)
+         */
+
         public Pedido(String descricao, String valor, int formapagamento) {
             switch (formapagamento) {
                 case 1:
@@ -75,7 +82,10 @@ import maua.prova.enums.*;
         }
 
 
-        // gerador de id dos pedidos
+        /**
+         * Gerador de um numero aleatorio que serve como ID do pedido.
+         * @return (um numero inteiro ramdomico)
+         */
         private String geradorId() {
             Random random = new Random();
             String idGerado = "";

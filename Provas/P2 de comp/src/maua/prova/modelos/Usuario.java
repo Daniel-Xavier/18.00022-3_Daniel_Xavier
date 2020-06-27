@@ -7,35 +7,24 @@ public class Usuario implements Seguuranca {
 
     String nome, email, senha;
 
+    /**
+     * Classe que representa o Usuario
+     * @param nome
+     * @param email
+     * @param senha
+     */
+
     public Usuario(String nome, String email, String senha) {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getSenha() {
-        return senha;
-    }
-
-    public void setSenha(String senha) {
-        this.senha = senha;
-    }
+    /**
+     * aplicacao da Intercace Seguuranca que compara a senha para usuario
+     * @param senha (senha digitada pelo usuario, usada para comparacao)
+     * @return (true caso a senha seja correta ou false caso a senha nao seja a correta)
+     */
 
     @Override
     public boolean verifica(String senha) {
