@@ -8,7 +8,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Sistemapizzaria {
-
+    /**
+     * Classe que roda o sistema inteiro.
+     * @author Daniel Ughini Xavier - 18.00022-3@maua.br
+     * @since 26/06/2020
+     * @version 1.0
+     */
 
     public static void main(String[] args) {
         Scanner imput = new Scanner(System.in);
@@ -19,7 +24,9 @@ public class Sistemapizzaria {
         System.out.println("email: Daniel@maua.br");
         System.out.println("senha:");
         String senha = imput.nextLine();
-
+/**
+ * menu e suas implementacoes
+ */
 
         do{
             System.out.println("-=-=-=-=-=-=-=-=-=Pizzaria o Rato que Ri!-=-=-=-=-=-=-=-=-=-\n" +

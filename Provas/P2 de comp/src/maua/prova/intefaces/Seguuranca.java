@@ -1,6 +1,6 @@
 package maua.prova.interfaces;
 /**
- * Interfaceutilizada para verivicar se a senha esta correta
+ * Interface utilizada para verivicar se a senha esta correta
  */
 public interface Seguuranca {
     /**
