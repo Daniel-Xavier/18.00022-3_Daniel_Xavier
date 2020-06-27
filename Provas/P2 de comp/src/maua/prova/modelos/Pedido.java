@@ -61,4 +61,28 @@ import maua.prova.enums.*;
             this.valor = valor;
         }
 
+
+        public void mostrarPedido(){
+            System.out.println(
+                    "\n" +
+                            "=*=*=*=*=*=*=*=*=*=*Pedido*=*=*=*=*=*=*=*=*=*=\n" +
+                            "Id do pedido: " + this.Id + "\n" +
+                            "Descrição: " + this.descricao + "\n" +
+                            "Valor: R$ " + this.valor + "\n" +
+                            "Forma de Pagamento: " + this.getFpagamento() + "\n" +
+                            "Estado do pedido: " + this.getEstado() + "\n" +
+                            "=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=");
+        }
+
+
+        // gerador de id dos pedidos
+        private String geradorId() {
+            Random random = new Random();
+            String idGerado = "";
+            for (int i = 0; i < 3; i++) {
+                idGerado += random.nextInt(10);
+            }return idGerado;
+        }
+
+
     }
