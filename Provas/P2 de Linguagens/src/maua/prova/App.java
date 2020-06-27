@@ -1,8 +1,10 @@
 package maua.prova;
 
-public class App {
+import maua.prova.sistema.SistemaPizzaria;
 
+public class App {
     public static void main(String[] args) {
-	// write your code here
+        SistemaPizzaria app = new SistemaPizzaria();
+        app.run();
     }
 }
