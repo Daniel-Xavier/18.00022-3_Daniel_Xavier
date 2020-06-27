@@ -1,8 +1,8 @@
 package maua.prova;
 
-import maua.prova.modelos.*;
-import maua.prova.enums.*;
-
+import maua.prova.enums.estadodoPedido;
+import maua.prova.modelos.Pedido;
+import maua.prova.modelos.Usuario;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -86,7 +86,3 @@ public class Sistemapizzaria {
         }while (opcao != 0);
     }
 }
-
-
-
-
