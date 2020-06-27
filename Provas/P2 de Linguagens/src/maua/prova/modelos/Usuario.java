@@ -3,7 +3,7 @@ package maua.prova.modelos;
 import maua.prova.interfaces.Seguuranca;
 
 
-public class Usuario{
+public class Usuario implements Seguuranca{
 
     String nome, email, senha;
 
@@ -37,9 +37,9 @@ public class Usuario{
         this.senha = senha;
     }
 
-
-    public boolean verifica (String admin) {
-        if (senha.equals(admin)){
+    @Override
+    public boolean verifica(String senha) {
+        if (senha.equals(senha)){
             System.out.println("Acesso ao admin LIBERADO ");
             return true;
         }

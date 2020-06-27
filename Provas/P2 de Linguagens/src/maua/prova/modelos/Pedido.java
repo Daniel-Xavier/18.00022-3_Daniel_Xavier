@@ -4,30 +4,74 @@ import java.util.Random;
 import maua.prova.enums.*;
 
 public class Pedido {
-    private String id, descricao;
-    private float valor;
-    private Enum<estadodoPedido> estadoPedido;
-    private Enum<formadePagamento> formaPagamento;
 
+    Enum estado, fpagamento;
+    String Id, descricao, valor;
 
-    public Pedido(String descricao, float valor, Enum<formadePagamento> formaPagamento) {
-        this.descricao = descricao;
-        this.valor = valor;
-        this.estadoPedido = estadodoPedido.REALIZADO;
-        this.formaPagamento = formaPagamento;
-        this.id = geradorId();
+    public Enum getEstado() {
+        return estado;
     }
 
+    public void setEstado(Enum estado) {
+        this.estado = estado;
+    }
+
+    public Enum getFpagamento() {
+        return fpagamento;
+    }
+
+    public void setFpagamento(Enum fpagamento) {
+        this.fpagamento = fpagamento;
+    }
+
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        Id = id;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+
+
+    public Pedido(String descricao, String valor, int formapagamento) {
+        switch (formapagamento) {
+            case 1:
+                fpagamento = formadePagamento.CREDITO;
+            case 2:
+                fpagamento = formadePagamento.DEBITO;
+            case 3:
+                fpagamento = formadePagamento.DINHEIRO;
+            case 4:
+                fpagamento = formadePagamento.VALE_ALIMENTACAO;
+                break;
+            case 5:
+                fpagamento = formadePagamento.VALE_REFEICAOO;
+                break;
+        }
+        this.estado = estadodoPedido.REALIZADO;
+        this.Id = geradorId();
+        this.descricao = descricao;
+        this.valor = valor;
+    }
 
     public void mostrarPedido(){
         System.out.println(
                 "\n" +
                         "=*=*=*=*=*=*=*=*=*=*Pedido*=*=*=*=*=*=*=*=*=*=\n" +
-                        "Id do pedido: " + this.id + "\n" +
+                        "Id do pedido: " + this.Id + "\n" +
                         "Descrição: " + this.descricao + "\n" +
                         "Valor: R$ " + this.valor + "\n" +
-                        "Forma de Pagamento: " + this.formaPagamento + "\n" +
-                        "Estado do pedido: " + this.estadoPedido + "\n" +
+                        "Forma de Pagamento: " + this.getFpagamento() + "\n" +
+                        "Estado do pedido: " + this.getEstado() + "\n" +
                         "=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*="
         );
     }
@@ -42,12 +86,4 @@ public class Pedido {
         }return idGerado;
     }
 
-    public String getId() {
-        return id;
-    }
-
-
-    public void setEstadoPedido(Enum<estadodoPedido> estadoPedido) {
-        this.estadoPedido = estadoPedido;
-    }
 }

@@ -1,5 +1,5 @@
 package maua.prova.interfaces;
 
 public interface Seguuranca {
-    public boolean verifica();
+    boolean verifica(String senha);
 }
