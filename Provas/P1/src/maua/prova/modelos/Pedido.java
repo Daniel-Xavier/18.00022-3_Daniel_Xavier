@@ -1,21 +1,20 @@
 package maua.prova.modelos;
 
-import maua.prova.enums.*;
-
 import java.util.Random;
+import maua.prova.enums.*;
 
 public class Pedido {
     private String id, descricao;
     private float valor;
-    private EstadodoPedido estadodoPedido;
-    private FormadePagamento formadePagamento;
+    private Enum<estadodoPedido> estadoPedido;
+    private Enum<formadePagamento> formaPagamento;
 
 
-    public Pedido(String descricao, float valor,FormadePagamento formadePagamento, EstadodoPedido estadodoPedido) {
+    public Pedido(String descricao, float valor, Enum<formadePagamento> formaPagamento) {
         this.descricao = descricao;
         this.valor = valor;
-        this.estadodoPedido = estadodoPedido;
-        this.formadePagamento = formadePagamento;
+        this.estadoPedido = estadodoPedido.REALIZADO;
+        this.formaPagamento = formaPagamento;
         this.id = geradorId();
     }
 
@@ -27,8 +26,8 @@ public class Pedido {
                         "Id do pedido: " + this.id + "\n" +
                         "Descrição: " + this.descricao + "\n" +
                         "Valor: R$ " + this.valor + "\n" +
-                        "Forma de Pagamento: " + this.formadePagamento + "\n" +
-                        "Estado do pedido: " + this.estadodoPedido + "\n" +
+                        "Forma de Pagamento: " + this.formaPagamento + "\n" +
+                        "Estado do pedido: " + this.estadoPedido + "\n" +
                         "=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*="
         );
     }
@@ -38,18 +37,17 @@ public class Pedido {
     private String geradorId() {
         Random random = new Random();
         String idGerado = "";
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 3; i++) {
             idGerado += random.nextInt(10);
-        return idGerado;
+        }return idGerado;
     }
 
     public String getId() {
         return id;
     }
 
-    public void setEstadodoPedido(EstadodoPedido estadodoPedido) {
-        this.estadodoPedido = estadodoPedido;
+
+    public void setEstadoPedido(Enum<estadodoPedido> estadoPedido) {
+        this.estadoPedido = estadoPedido;
     }
-
-
 }
