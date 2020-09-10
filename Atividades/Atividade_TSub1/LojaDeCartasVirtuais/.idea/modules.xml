@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Loja de Cartas Virtuais.iml" filepath="$PROJECT_DIR$/Loja de Cartas Virtuais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LojaDeCartasVirtuais.iml" filepath="$PROJECT_DIR$/LojaDeCartasVirtuais.iml" />
     </modules>
   </component>
 </project>
