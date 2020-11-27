@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/18.00022-3_Daniel_Xavier.iml" filepath="$PROJECT_DIR$/.idea/18.00022-3_Daniel_Xavier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades/Atividade_02/Atividade_02.iml" filepath="$PROJECT_DIR$/Atividades/Atividade_02/Atividade_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades/Atividade_03/Atividade_03.iml" filepath="$PROJECT_DIR$/Atividades/Atividade_03/Atividade_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades/Atividade_TSub1/Atividade_TSub1.iml" filepath="$PROJECT_DIR$/Atividades/Atividade_TSub1/Atividade_TSub1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Atividades/Atividades.iml" filepath="$PROJECT_DIR$/Atividades/Atividades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Provas/Provas.iml" filepath="$PROJECT_DIR$/Provas/Provas.iml" />
+    </modules>
+  </component>
+</project>
