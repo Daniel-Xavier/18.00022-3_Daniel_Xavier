@@ -23,7 +23,15 @@ class _MyHomePageState extends State<MyHomePage> {
               height:300,
               child: Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/1200px-Overwatch_circle_logo.svg.png")
             ),
-            
+            TextField(
+              controller: controlador,
+              decoration: InputDecoration(
+                hintText:  " Use o formato: User-1234 ",
+                labelText: "Informe sua batlletag: ",
+                icon: Icon(Icons.drive_file_rename_outline)
+              ),
+              ),
+              
 
         ],),),
 
