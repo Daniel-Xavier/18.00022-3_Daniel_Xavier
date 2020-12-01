@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:overwatch/models/profile.dart';
+import 'package:overwatch/telas/overwatch_page.dart';
+import 'package:overwatch/utilities/network_helper.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key key, this.title = 'Home'}) : super(key: key);
