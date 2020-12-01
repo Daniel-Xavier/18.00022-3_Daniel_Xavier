@@ -13,13 +13,32 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final controlador = TextEditingController();
-  Profile dados_1 = new Profile();
+
+  Profile dados_profile = new Profile();
+  CompetitiveStats dados_compstats = new CompetitiveStats();
+  CareerStats dados_careerstats = new CareerStats();
+  AllHeroes dados_allheroes = new AllHeroes();
+  Assists dados_assists = new Assists();
+  Best dados_best = new Best();
+  Combat dados_combat = new Combat();
+  Game dados_game = new Game();
+  Games dados_games = new Games();
+  Ratings dados_ratings = new Ratings();
 
   // Função que bunsca a informacao na API
-  Future fetchImagem() async {
+  Future fetchInfo() async {
     var requisicao = NetworkHelper(
         url: 'https://ow-api.com/v1/stats/pc/us/${controlador.text}/complete');
-    dados_1 = Profile.fromJson(await requisicao.getData());
+    dados_profile = Profile.fromJson(await requisicao.getData());
+    dados_compstats = CompetitiveStats.fromJson(await requisicao.getData());
+    dados_careerstats = CareerStats.fromJson(await requisicao.getData());
+    dados_allheroes = AllHeroes.fromJson(await requisicao.getData());
+    dados_assists = Assists.fromJson(await requisicao.getData());
+    dados_best = Best.fromJson(await requisicao.getData());
+    dados_combat = Combat.fromJson(await requisicao.getData());
+    dados_game = Game.fromJson(await requisicao.getData());
+    dados_games = Games.fromJson(await requisicao.getData());
+    dados_ratings = Ratings.fromJson(await requisicao.getData());
   }
 
   @override
@@ -50,11 +69,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text('Mostar Perfil'),
                 textColor: Colors.white,
                 onPressed: () async {
-                  await fetchImagem();
+                  await fetchInfo();
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => OverwatchPage(dados: dados_1)),
+                        builder: (context) => OverwatchPage(
+                            dadosProfile: dados_profile,
+                            dadosCompstats: dados_compstats,
+                            dadosCareerstats: dados_careerstats,
+                            dadoAllheroes: dados_allheroes,
+                            dadosAssists: dados_assists,
+                            dadosBest: dados_best,
+                            dadosCombat: dados_combat,
+                            dadosGame: dados_game,
+                            dadosGames: dados_games,
+                            dadosRatings: dados_ratings)),
                   );
                 }),
           ],
