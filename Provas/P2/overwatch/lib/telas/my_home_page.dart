@@ -31,7 +31,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: Icon(Icons.drive_file_rename_outline)
               ),
               ),
+            RaisedButton(
+              color: Colors.grey[500],
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(50),
+                side: BorderSide(color: Colors.black)),
+              child: Text('Mostar Perfil'),
+              textColor: Colors.white,
+              onPressed: () async {
+                
+              }
               
+              
+              ),
 
         ],),),
 
