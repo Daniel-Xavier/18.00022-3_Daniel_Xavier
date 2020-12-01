@@ -27,6 +27,7 @@ class _OverwatchPageState extends State<OverwatchPage> {
               child: Image.network(
                   "https://pbs.twimg.com/media/Eh0cbo1VgAAc1zr.jpg"),
             ),
+            // mostra o Rank referente a Battletag escrita
             SizedBox(
               child: Image.network(widget.dados.ratingIcon),
             )

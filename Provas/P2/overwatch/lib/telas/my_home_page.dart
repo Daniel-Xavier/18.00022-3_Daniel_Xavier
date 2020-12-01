@@ -15,6 +15,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final controlador = TextEditingController();
   Profile dados_1 = new Profile();
 
+  // Função que bunsca a informacao na API
   Future fetchImagem() async {
     var requisicao = NetworkHelper(
         url: 'https://ow-api.com/v1/stats/pc/us/${controlador.text}/complete');
@@ -32,6 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
                 child: Image.network(
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/1200px-Overwatch_circle_logo.svg.png")),
+            //TextFild que le a BattleTag  e armazena no controlador.text
             TextField(
               controller: controlador,
               decoration: InputDecoration(
@@ -39,6 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   labelText: "Informe sua batlletag: ",
                   icon: Icon(Icons.drive_file_rename_outline)),
             ),
+            //Botao que manda a battletag para a url da API e passa para a tela overwatch_page
             RaisedButton(
                 color: Colors.grey[500],
                 shape: RoundedRectangleBorder(
