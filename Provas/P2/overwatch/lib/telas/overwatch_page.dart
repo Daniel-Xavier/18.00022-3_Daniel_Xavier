@@ -44,20 +44,38 @@ class _OverwatchPageState extends State<OverwatchPage> {
         ),
         body: Column(
           children: [
-            //
             Container(
-              child: Image.network(
-                  "https://pbs.twimg.com/media/Eh0cbo1VgAAc1zr.jpg"),
+              child: Text("Seu Nivel é: " +
+                  ((widget.dadosProfile.prestige * 100) +
+                          widget.dadosProfile.level)
+                      .toString()),
             ),
-            SizedBox(
-              child: Text(widget.dadosProfile.rating.toString()),
+            Container(
+              child: Text("SR: " + widget.dadosProfile.rating.toString()),
             ),
 
             // mostra o Rank referente a Battletag escrita
-            SizedBox(
+            Container(
               child: Image.network(widget.dadosProfile.ratingIcon),
             ),
-            SizedBox(),
+            Container(
+              child: Text("jogos Venciidos: " +
+                  widget.dadosProfile.gamesWon.toString()),
+            ),
+            Container(
+              child: Text("Em um jogo voce deu " +
+                  widget.dadosBest.allDamageDoneMostInGame.toString() +
+                  " de dano."),
+            ),
+
+            Container(),
+            Container(),
+            Container(),
+            Container(),
+            Container(),
+            Container(),
+            Container(),
+            Container()
           ],
         ));
   }
