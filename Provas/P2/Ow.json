@@ -1,0 +1,59 @@
+{
+  "competitiveStats": {
+      "careerStats": {
+          "allHeroes": {
+              "assists": { 
+                  "healingDone": 251111
+              },
+              "best": {
+                  "allDamageDoneMostInGame": 72801,
+                  "barrierDamageDoneMostInGame": 20933,
+                  "eliminationsMostInGame": 63, 
+                  "healingDoneMostInGame": 20701,
+                  "heroDamageDoneMostInGame": 21626,                  
+                  "meleeFinalBlowsMostInGame": 2
+              },
+              "combat": {
+                  "barrierDamageDone": 341487,
+                  "damageDone": 725516,
+                  "deaths": 680,
+                  "eliminations": 1933,
+                  "heroDamageDone": 725516
+              },
+              "game": {
+                  "gamesPlayed": 84,
+                  "gamesWon": 41,
+                  "timePlayed": "15:57:54"
+              }
+          }   
+      },
+      "games": {
+          "played": 84,
+          "won": 41
+      }
+      
+  },
+  "gamesWon": 3287,
+  "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bb8f59eb716f8fd4cfa9bc2fac0dc1252fad6244060b1fe0eace33b9f7421da.png",
+  "level": 67,
+  "prestige": 12,
+  "rating": 2899,
+  "ratingIcon": "https://d1u1mce87gyfbn.cloudfront.net/game/rank-icons/rank-PlatinumTier.png",
+  "ratings": [
+      {
+          "level": 3038,
+          "role": "tank",
+          "rankIcon": "https://d1u1mce87gyfbn.cloudfront.net/game/rank-icons/rank-DiamondTier.png"
+      },
+      {
+          "level": 2682,
+          "role": "damage",          
+          "rankIcon": "https://d1u1mce87gyfbn.cloudfront.net/game/rank-icons/rank-PlatinumTier.png"
+      },
+      {
+          "level": 2977,
+          "role": "support",          
+          "rankIcon": "https://d1u1mce87gyfbn.cloudfront.net/game/rank-icons/rank-DiamondTier.png"
+      }
+  ]
+}
