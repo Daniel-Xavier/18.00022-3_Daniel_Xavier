@@ -38,6 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
     dados_combat = Combat.fromJson(await requisicao.getData());
     dados_game = Game.fromJson(await requisicao.getData());
     dados_games = Games.fromJson(await requisicao.getData());
+
     dados_ratings = Ratings.fromJson(await requisicao.getData());
   }
 
@@ -47,11 +48,27 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
         body: Column(
           children: [
+            AppBar(
+              backgroundColor: Colors.orange[400],
+              title: Text(
+                "Overwatch Status",
+                style: TextStyle(
+                  color: Colors.grey[850],
+                  fontSize: 25,
+                ),
+              ),
+            ),
             SizedBox(
-                width: 300,
-                height: 300,
+              height: 30.0,
+            ),
+            SizedBox(
+                width: 200,
+                height: 200,
                 child: Image.network(
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/1200px-Overwatch_circle_logo.svg.png")),
+            SizedBox(
+              height: 30.0,
+            ),
             //TextFild que le a BattleTag  e armazena no controlador.text
             TextField(
               controller: controlador,
@@ -60,20 +77,27 @@ class _MyHomePageState extends State<MyHomePage> {
                   labelText: "Informe sua batlletag: ",
                   icon: Icon(Icons.drive_file_rename_outline)),
             ),
+            SizedBox(
+              height: 45,
+            ),
             //Botao que manda a battletag para a url da API e passa para a tela overwatch_page
             RaisedButton(
-                color: Colors.grey[500],
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50),
-                    side: BorderSide(color: Colors.black)),
-                child: Text('Mostar Perfil'),
-                textColor: Colors.white,
-                onPressed: () async {
-                  await fetchInfo();
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => OverwatchPage(
+              color: Colors.orange[400],
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+                side: BorderSide(color: Colors.black),
+              ),
+              child: Text(
+                '     Mostar Status     ',
+                style: TextStyle(fontSize: 24),
+              ),
+              textColor: Colors.grey[800],
+              onPressed: () async {
+                await fetchInfo();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => OverwatchPage(
                             dadosProfile: dados_profile,
                             dadosCompstats: dados_compstats,
                             dadosCareerstats: dados_careerstats,
@@ -83,9 +107,11 @@ class _MyHomePageState extends State<MyHomePage> {
                             dadosCombat: dados_combat,
                             dadosGame: dados_game,
                             dadosGames: dados_games,
-                            dadosRatings: dados_ratings)),
-                  );
-                }),
+                            dadosRatings: dados_ratings,
+                          )),
+                );
+              },
+            ),
           ],
         ),
       ),

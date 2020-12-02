@@ -278,18 +278,21 @@ class Combat {
   int _deaths;
   int _eliminations;
   int _heroDamageDone;
+  int _meleeFinalBlows;
 
   Combat(
       {int barrierDamageDone,
       int damageDone,
       int deaths,
       int eliminations,
-      int heroDamageDone}) {
+      int heroDamageDone,
+      int meleeFinalBlows}) {
     this._barrierDamageDone = barrierDamageDone;
     this._damageDone = damageDone;
     this._deaths = deaths;
     this._eliminations = eliminations;
     this._heroDamageDone = heroDamageDone;
+    this._meleeFinalBlows = _meleeFinalBlows;
   }
 
   int get barrierDamageDone => _barrierDamageDone;
@@ -303,6 +306,9 @@ class Combat {
   set eliminations(int eliminations) => _eliminations = eliminations;
   int get heroDamageDone => _heroDamageDone;
   set heroDamageDone(int heroDamageDone) => _heroDamageDone = heroDamageDone;
+  int get meleeFinalBlows => _meleeFinalBlows;
+  set meleeFinalBlows(int meleeFinalBlows) =>
+      _meleeFinalBlows = meleeFinalBlows;
 
   Combat.fromJson(Map<String, dynamic> json) {
     _barrierDamageDone = json['barrierDamageDone'];
@@ -310,6 +316,7 @@ class Combat {
     _deaths = json['deaths'];
     _eliminations = json['eliminations'];
     _heroDamageDone = json['heroDamageDone'];
+    _meleeFinalBlows = json['meleeFinalBlows'];
   }
 
   Map<String, dynamic> toJson() {
@@ -319,6 +326,7 @@ class Combat {
     data['deaths'] = this._deaths;
     data['eliminations'] = this._eliminations;
     data['heroDamageDone'] = this._heroDamageDone;
+    data['meleeFinalBlows'] = this._meleeFinalBlows;
     return data;
   }
 }

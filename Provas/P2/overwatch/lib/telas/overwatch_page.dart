@@ -44,38 +44,141 @@ class _OverwatchPageState extends State<OverwatchPage> {
         ),
         body: Column(
           children: [
+            SizedBox(
+              height: 45,
+            ),
             Container(
               child: Text("Seu Nivel é: " +
                   ((widget.dadosProfile.prestige * 100) +
                           widget.dadosProfile.level)
                       .toString()),
             ),
+            SizedBox(
+              height: 15,
+            ),
             Container(
               child: Text("SR: " + widget.dadosProfile.rating.toString()),
             ),
-
+            SizedBox(
+              height: 5,
+            ),
             // mostra o Rank referente a Battletag escrita
-            Container(
+            SizedBox(
+              width: 80,
+              height: 80,
               child: Image.network(widget.dadosProfile.ratingIcon),
             ),
-            Container(
-              child: Text("jogos Venciidos: " +
-                  widget.dadosProfile.gamesWon.toString()),
+            SizedBox(
+              height: 5,
             ),
             Container(
-              child: Text("Em um jogo voce deu " +
-                  widget.dadosBest.allDamageDoneMostInGame.toString() +
-                  " de dano."),
+              child: Text(
+                "Status of Competitive Career",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Container(
+              child: Text("Tempo de Jogo: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .game.timePlayed
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Numero de Jogos: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .game.gamesPlayed
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Numero de vitorias " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .game.gamesWon
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
             ),
 
-            Container(),
-            Container(),
-            Container(),
-            Container(),
-            Container(),
-            Container(),
-            Container(),
-            Container()
+            Container(
+              child: Text("Dano total Causado: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .combat.damageDone
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Cura total: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .assists.healingDone
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Dano maximo causado em um jogo: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .best.allDamageDoneMostInGame
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Cura maxima causado em um jogo: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .best.healingDoneMostInGame
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+
+            Container(
+              child: Text("Total de kills: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .combat.eliminations
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Morreu: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .combat.deaths
+                      .toString()),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Kill no Melee: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .combat.meleeFinalBlows
+                      .toString()),
+            ),
+
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: Text("Eliminacoes em um jogo: " +
+                  widget.dadosProfile.competitiveStats.careerStats.allHeroes
+                      .best.eliminationsMostInGame
+                      .toString()),
+            ),
           ],
         ));
   }
